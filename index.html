@@ -50,97 +50,45 @@
 
 <body class="open-sans-fonts">
     <header class="container mx-auto">
-        <!-- <nav class="bg-fruit-primary text-white">
-            <div class="navbar">
-                <div class="navbar-start">
-                    <div class="dropdown">
-                        <div tabindex="0" role="button" class="btn btn-ghost lg:hidden">
-                            <svg xmlns="http://www.w3.org/2000/svg" class="h-5 w-5" fill="none" viewBox="0 0 24 24"
-                                stroke="currentColor">
-                                <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2"
-                                    d="M4 6h16M4 12h8m-8 6h16" />
-                            </svg>
-                        </div>
-                        <ul tabindex="0"
-                            class="menu menu-sm dropdown-content mt-3 z-[1] p-2 shadow bg-base-100 rounded-box w-52">
-                            <li><a>Home</a></li>
-                            <li><a>About</a></li>
-                            <li><a>Shop</a></li>
-                            <li><a>All Fruits</a></li>
-                        </ul>
+        <!-- Desktop Navigation Bar -->
+        <nav class="bg-fruit-primary py-5 px-10 rounded-full mt-10">
+            <div class="flex justify-between items-center">
+                <ul class=" flex gap-5 text-white font-medium text-lg">
+                    <li class="hover:underline"><a href="">Home</a></li>
+                    <li class="hover:underline"><a href="">About Us</a></li>
+                    <li class="hover:underline"><a href="">Shop</a></li>
+                    <li class="hover:underline"><a href="">All Fruits</a></li>
+                </ul>
+                <a href="#">
+                    <div class="flex gap-5 items-center justify-center">
+                        <img class="w-10" src="./images/logo.png">
+                        <h1 class="font-extrabold text-4xl text-white">Fruit Burst</h1>
                     </div>
-                </div>
-                <div class="navbar-center hidden lg:flex">
-                    <ul class="menu menu-horizontal px-1">
-                        <li><a>Home</a></li>
-                        <li><a>About</a></li>
-                        <li><a>Shop</a></li>
-                        <li><a>All Fruits</a></li>
-                    </ul>
-                </div>
-                <div class="navbar-end">
-                    <a class="btn">Button</a>
+                </a>
+                <div class="relative">
+                    <input type="search" class="rounded-full w-full p-4 pl-8 pr-12" placeholder="Type Here">
+                    <div class="absolute inset-y-0 end-0 flex items-center pr-3">
+                        <i class="fa-solid fa-magnifying-glass"></i>
+                    </div>
+
                 </div>
             </div>
 
-
-
-
-
-            <div class="navbar">
-                <div class="navbar-start">
-                    <div class="dropdown">
-                        <div tabindex="0" role="button" class="btn btn-ghost btn-circle">
-                            <svg xmlns="http://www.w3.org/2000/svg" class="h-5 w-5" fill="none" viewBox="0 0 24 24"
-                                stroke="currentColor">
-                                <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2"
-                                    d="M4 6h16M4 12h16M4 18h7" />
-                            </svg>
-                        </div>
-                        <ul tabindex="0"
-                            class="menu menu-sm dropdown-content mt-3 z-[1] p-2 shadow bg-base-100 rounded-box w-52">
-                            <li><a>Homepage</a></li>
-                            <li><a>Portfolio</a></li>
-                            <li><a>About</a></li>
-                        </ul>
-                    </div>
-                </div>
-                <div class="navbar-center">
-                    <a class="btn btn-ghost text-xl">daisyUI</a>
-                </div>
-                <div class="navbar-end">
-                    <button class="btn btn-ghost btn-circle">
-                        <svg xmlns="http://www.w3.org/2000/svg" class="h-5 w-5" fill="none" viewBox="0 0 24 24"
-                            stroke="currentColor">
-                            <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2"
-                                d="M21 21l-6-6m2-5a7 7 0 11-14 0 7 7 0 0114 0z" />
-                        </svg>
-                    </button>
-                    <button class="btn btn-ghost btn-circle">
-                        <div class="indicator">
-                            <svg xmlns="http://www.w3.org/2000/svg" class="h-5 w-5" fill="none" viewBox="0 0 24 24"
-                                stroke="currentColor">
-                                <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2"
-                                    d="M15 17h5l-1.405-1.405A2.032 2.032 0 0118 14.158V11a6.002 6.002 0 00-4-5.659V5a2 2 0 10-4 0v.341C7.67 6.165 6 8.388 6 11v3.159c0 .538-.214 1.055-.595 1.436L4 17h5m6 0v1a3 3 0 11-6 0v-1m6 0H9" />
-                            </svg>
-                            <span class="badge badge-xs badge-primary indicator-item"></span>
-                        </div>
-                    </button>
-                </div>
-            </div>
-        </nav> -->
-        <section>
-            <div class="carousel w-full my-24">
+        </nav>
+        <section class="w-full">
+            <div class="carousel w-full my-10 md:mb-24">
                 <div id="slide1" class="carousel-item relative w-full">
-                    <div class="w-full bg-center h-[100%]" style="background-image: url(./images/banner1.png);">
+                    <div class="w-full bg-center" style="background-image: url(./images/banner1.png);">
                         <div class="hero h-full ">
                             <div class="hero-overlay bg-opacity-65"></div>
-                            <div class="text-center text-neutral-content mt-20 sm:mb-24 md:mb-44">
+                            <div class="text-center text-neutral-content my-20 sm:mb-24 md:mb-44">
                                 <div class="space-y-4">
-                                    <h1 class="mb-5 text-7xl font-black text-white">Exotic tastes at your <br>doorstep
+                                    <h1 class="mb-5 text-3xl md:text-5xl lg:text-7xl font-black text-white">Exotic
+                                        tastes at your <br> doorstep
                                     </h1>
-                                    <p class="text-gray-100">We supply highly quality organic products</p>
-                                    <button class="btn bg-fruit-primary border-0 text-white hover:bg-black px-6">Shop
+                                    <p class="text-gray-100 w-3/4 md:w-full mx-auto">We supply highly quality organic
+                                        products</p>
+                                    <button class="btn bg-fruit-primary border-0 text-white hover:bg-black md:px-6">Shop
                                         Now</button>
                                 </div>
                             </div>
@@ -155,12 +103,14 @@
                     <div class="w-full bg-center h-[100%]" style="background-image: url(./images/banner2.png);">
                         <div class="hero h-full ">
                             <div class="hero-overlay bg-opacity-65"></div>
-                            <div class="text-center text-neutral-content mt-20 sm:mb-24 md:mb-44">
+                            <div class="text-center text-neutral-content my-20 sm:mb-24 md:mb-44">
                                 <div class="space-y-4">
-                                    <h1 class="mb-5 text-7xl font-black text-white">Exotic tastes at your <br>doorstep
+                                    <h1 class="mb-5 text-3xl md:text-5xl lg:text-7xl font-black text-white">Exotic
+                                        tastes at your <br> doorstep
                                     </h1>
-                                    <p class="text-gray-100">We supply highly quality organic products</p>
-                                    <button class="btn bg-fruit-primary border-0 text-white hover:bg-black px-6">Shop
+                                    <p class="text-gray-100 w-3/4 md:w-full mx-auto">We supply highly quality organic
+                                        products</p>
+                                    <button class="btn bg-fruit-primary border-0 text-white hover:bg-black md:px-6">Shop
                                         Now</button>
                                 </div>
                             </div>
@@ -175,11 +125,13 @@
                     <div class="w-full bg-center h-[100%]" style="background-image: url(./images/banner3.png);">
                         <div class="hero h-full ">
                             <div class="hero-overlay bg-opacity-65"></div>
-                            <div class="text-center text-neutral-content mt-20 sm:mb-24 md:mb-44">
+                            <div class="text-center text-neutral-content my-20 sm:mb-24 md:mb-44">
                                 <div class="space-y-4">
-                                    <h1 class="mb-5 text-7xl font-black text-white">Exotic tastes at your <br>doorstep
+                                    <h1 class="mb-5 text-3xl md:text-5xl lg:text-7xl font-black text-white">Exotic
+                                        tastes at your <br> doorstep
                                     </h1>
-                                    <p class="text-gray-100">We supply highly quality organic products</p>
+                                    <p class="text-gray-100 w-3/4 md:w-full mx-auto">We supply highly quality organic
+                                        products</p>
                                     <button class="btn bg-fruit-primary border-0 text-white hover:bg-black px-6">Shop
                                         Now</button>
                                 </div>
@@ -195,11 +147,13 @@
                     <div class="w-full bg-center h-[100%]" style="background-image: url(./images/banner4.png);">
                         <div class="hero h-full ">
                             <div class="hero-overlay bg-opacity-65"></div>
-                            <div class="text-center text-neutral-content mt-20 sm:mb-24 md:mb-44">
+                            <div class="text-center text-neutral-content my-20 sm:mb-24 md:mb-44">
                                 <div class="space-y-4">
-                                    <h1 class="mb-5 text-7xl font-black text-white">Exotic tastes at your <br>doorstep
+                                    <h1 class="mb-5 text-3xl md:text-5xl lg:text-7xl font-black text-white">Exotic
+                                        tastes at your <br> doorstep
                                     </h1>
-                                    <p class="text-gray-100">We supply highly quality organic products</p>
+                                    <p class="text-gray-100 w-3/4 md:w-full mx-auto">We supply highly quality organic
+                                        products</p>
                                     <button class="btn bg-fruit-primary border-0 text-white hover:bg-black px-6">Shop
                                         Now</button>
                                 </div>
@@ -507,7 +461,8 @@
         </section>
         <!-- Our Team Section -->
         <section class="my-24 team-bg-image rounded-lg">
-            <div class="py-10 px-8 lg:py-32 lg:px-44 bg-gray-800 bg-opacity-75 text-center space-y-4">
+            <div
+                class="py-16 px-10 md:py-20 md:px-10 lg:py-32 lg:px-44 bg-gray-800 bg-opacity-75 text-center space-y-4">
                 <div class="space-y-4">
                     <h3 class="text-white text-3xl lg:text-5xl font-black">Meet the team section</h3>
                     <p class="text-white max-w-2xl mx-auto font-medium">Contrary to popular belief, is not simply random
@@ -711,26 +666,28 @@
             </div>
         </section>
     </main>
-    <footer class="footer footer-center py-20 bg-black text-primary-content">
-        <div class="flex items-center">
-            <img class="w-10" src="./images/logo.png" alt="">
-            <h1 class="font-extrabold text-4xl">Fruit Burst</h1>
-        </div>
-        <div class="flex flex-wrap gap-8 justify-center">
-            <a class="cursor-pointer text-base lg:text-lg hover:underline">Home</a>
-            <a class="cursor-pointer text-base lg:text-lg hover:underline">About Us</a>
-            <a class="cursor-pointer text-base lg:text-lg hover:underline">Shop</a>
-            <a class="cursor-pointer text-base lg:text-lg hover:underline">All Fruits</a>
-            <a class="cursor-pointer text-base lg:text-lg hover:underline">Support</a>
-            <a class="cursor-pointer text-base lg:text-lg hover:underline">My Account</a>
-        </div>
-        <div class="flex gap-5">
-            <a class="btn btn-outline rounded-full p-4"><i class="fa-brands fa-twitter text-white"></i></a>
-            <a class="btn btn-outline rounded-full p-4"><i class="fa-brands fa-facebook text-white"></i></a>
-            <a class="btn btn-outline rounded-full p-4"><i class="fa-brands fa-youtube text-white"></i></a>
-            <a class="btn btn-outline rounded-full p-4"><i class="fa-brands fa-linkedin-in text-white"></i></a>
-            <a class="btn btn-outline rounded-full p-4"><i class="fa-brands fa-instagram text-white"></i></a>
-            <a class="btn btn-outline rounded-full p-4"><i class="fa-brands fa-apple text-white"></i></a>
+    <footer class="bg-black">
+        <div class="container mx-auto text-primary-content py-16 px-12 md:p-20 space-y-8">
+            <div class="flex gap-5 items-center justify-center">
+                <img class="w-10" src="./images/logo.png" alt="">
+                <h1 class="font-extrabold text-4xl">Fruit Burst</h1>
+            </div>
+            <div class="flex flex-wrap gap-8 justify-center">
+                <a class="cursor-pointer text-base lg:text-lg hover:underline">Home</a>
+                <a class="cursor-pointer text-base lg:text-lg hover:underline">About Us</a>
+                <a class="cursor-pointer text-base lg:text-lg hover:underline">Shop</a>
+                <a class="cursor-pointer text-base lg:text-lg hover:underline">All Fruits</a>
+                <a class="cursor-pointer text-base lg:text-lg hover:underline">Support</a>
+                <a class="cursor-pointer text-base lg:text-lg hover:underline">My Account</a>
+            </div>
+            <div class="flex gap-5 justify-center">
+                <a class="btn btn-outline rounded-full p-4"><i class="fa-brands fa-twitter text-white"></i></a>
+                <a class="btn btn-outline rounded-full p-4"><i class="fa-brands fa-facebook text-white"></i></a>
+                <a class="btn btn-outline rounded-full p-4"><i class="fa-brands fa-youtube text-white"></i></a>
+                <a class="btn btn-outline rounded-full p-4"><i class="fa-brands fa-linkedin-in text-white"></i></a>
+                <a class="btn btn-outline rounded-full p-4"><i class="fa-brands fa-instagram text-white"></i></a>
+                <a class="btn btn-outline rounded-full p-4"><i class="fa-brands fa-apple text-white"></i></a>
+            </div>
         </div>
     </footer>
 </body>
