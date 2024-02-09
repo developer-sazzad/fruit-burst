@@ -103,10 +103,14 @@
                             <label for="my-drawer" aria-label="close sidebar" class="drawer-overlay"></label>
                             <ul class="menu p-10 w-80 min-h-full space-y-2 bg-base-200 text-base-content">
                                 <!-- Sidebar content here -->
-                                <li class="hover:underline"><a href="">Home</a></li>
-                                <li class="hover:underline"><a href="">About Us</a></li>
-                                <li class="hover:underline"><a href="">Shop</a></li>
-                                <li class="hover:underline"><a href="">All Fruits</a></li>
+                                <div class="flex gap-5 items-center justify-center py-4">
+                                    <img class="w-10" src="./images/logo.png">
+                                    <h1 class="font-extrabold text-3xl">Fruit Burst</h1>
+                                </div>
+                                <li class="hover:underline md:text-lg"><a href="">Home</a></li>
+                                <li class="hover:underline md:text-lg"><a href="">About Us</a></li>
+                                <li class="hover:underline md:text-lg"><a href="">Shop</a></li>
+                                <li class="hover:underline md:text-lg"><a href="">All Fruits</a></li>
                             </ul>
                         </div>
                     </div>
@@ -221,7 +225,7 @@
         <!-- Deal of the day -->
         <section class="my-24">
             <div class="flex flex-col lg:flex-row mx-auto justify-between">
-                <div class="justify-start space-y-4 mx-8 lg:mx-0">
+                <div class="text-center md:text-start md:justify-start space-y-4 mx-8 lg:mx-0">
                     <h3 class="text-3xl lg:text-5xl font-extrabold text-fruit-title">Deal of the day</h3>
                     <p class="max-w-2xl text-fruit-description font-medium">Contrary to popular belief, is not simply
                         random text.
@@ -500,9 +504,9 @@
             </div>
         </section>
         <!-- Our Team Section -->
-        <section class="my-24 team-bg-image rounded-lg">
+        <section class="my-24 team-bg-image rounded-xl">
             <div
-                class="py-16 px-10 md:py-20 md:px-10 lg:py-32 lg:px-44 bg-gray-800 bg-opacity-75 text-center space-y-4">
+                class="py-16 px-10 md:py-20 md:px-10 lg:py-32 lg:px-44 bg-gray-800 bg-opacity-75  rounded-xl text-center space-y-4">
                 <div class="space-y-4">
                     <h3 class="text-white text-3xl lg:text-5xl font-black">Meet the team section</h3>
                     <p class="text-white max-w-2xl mx-auto font-medium">Contrary to popular belief, is not simply random
@@ -514,7 +518,7 @@
                         literature from 45 BC, making it over 2000 years old.</p>
                 </div>
                 <!-- Team Members List -->
-                <div class="grid grid-cols-2 lg:grid-cols-4 gap-5">
+                <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-5">
                     <!-- First Team Member -->
                     <div class="flex justify-center pt-10">
                         <div class="space-y-2 text-center">
@@ -609,7 +613,7 @@
                 </div>
             </div>
             <div class="grid grid-cols-1 lg:grid-cols-3 gap-8 items-center p-">
-                <div class="space-y-10">
+                <div class="space-y-10 order-2 lg:order-1">
                     <div class="flex items-start gap-6">
                         <div class="bg-slate-300 p-4 rounded-full">
                             <i class="fa-solid fa-users text-3xl"></i>
@@ -650,10 +654,10 @@
                         </div>
                     </div>
                 </div>
-                <div class="flex justify-center">
+                <div class="flex justify-center order-1 lg:order-2">
                     <img src="./images/whychoose1.png" alt="">
                 </div>
-                <div class="space-y-10">
+                <div class="space-y-10 order-3 lg:order-3">
                     <div class="space-y-10">
                         <div class="flex flex-row lg:flex-row-reverse items-start gap-6">
                             <div class="bg-slate-300 p-4 rounded-full">
